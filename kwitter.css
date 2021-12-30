@@ -1,0 +1,35 @@
+#section1_kwitter{
+background: rgb(2,0,36);
+background: linear-gradient(247deg, rgba(2,0,36,1) 0%, rgba(2,27,63,1) 0%, rgba(0,212,255,1) 100%);
+background-repeat: no-repeat;
+padding-bottom: 55px;
+z-index: 9;
+}
+#section1_room{
+background: rgb(228,202,167);
+background: linear-gradient(90deg, rgba(228,202,167,1) 9%, rgba(200,200,200,1) 97%);
+background-repeat: no-repeat;
+margin-top: -20px;
+padding-bottom: 38.7%;
+}
+h1 {
+    font-family: 'Shizuru', cursive;
+    font-size: 60px;
+    color: cornsilk;
+}
+h4{
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+}
+p{
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+.login_div
+{
+    border-radius: 15px;
+    width: 500px;
+    z-index: 10;
+    margin-top: -40px;
+}

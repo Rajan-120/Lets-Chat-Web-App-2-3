@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kwitter, Let's Chat</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Shizuru&display=swap" rel="stylesheet">
+    
+    <link rel="icon" href="https://png.pngtree.com/element_our/png_detail/20181229/vector-chat-icon-png_302635.jpg">
+    <link rel="stylesheet" href="kwitter.css">
+    </head>
+    <body>
+        <center>
+            <section id="section1_room">
+<h1>Kwitter<sup><img src="inbox_icon.png" width="100px"></sup></h1>
+<h4>Make new rooooooms & Chat!!</h3>
+    <br>
+    <h5 id="user_name" style="color:lightslategray; font-size: 25px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"></h5>
+    <input class="form-control" id="room_name" placeholder="#Add Room" style="width: 600px;">
+    <br>
+    <button type="button" class="btn btn-primary" onclick="addRoom()">Create Room</button>
+    <br><br><br>
+        <h3>Our Most <b class="text-primary" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">#TRENDING</b></h3>
+        <br>
+        <hr>
+        <div id="output"></div>
+</section>
+</center>
+<script src="kwitter_room.js"></script>
+    </body>
+    </html>
